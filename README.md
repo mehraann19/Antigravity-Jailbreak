@@ -1,6 +1,6 @@
 ![Antigravity Jailbreak Banner](banner.jpg)
 
-# Anti-Gravity Customizations Repository
+# Antigravity Jailbreak Repository
 
 ### Created By Mehraann
 
@@ -8,7 +8,7 @@
 
 ## 📖 Introduction
 
-This repository is a self-contained customization pack for the Google Antigravity (AGY) platform. It provides a suite of advanced system directives (rulesets) and creative writing workflows, alongside a master switcher utility that allows you to easily switch model configurations depending on which AI model you select in the Antigravity interface.
+This repository is a self-contained customization and jailbreak pack for the Google Antigravity (AGY) platform. It provides a suite of advanced system directives (jailbreaks), personal style guides, and creative writing workflows, alongside a master switcher utility that allows you to easily bypass platform limitations depending on which AI model you select in the Antigravity interface.
 
 It supports custom profiles for:
 * **Gemini 3.5 Flash** (High/Medium/Low)

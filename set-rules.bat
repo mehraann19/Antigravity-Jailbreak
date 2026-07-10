@@ -2,7 +2,7 @@
 :menu
 cls
 echo ===================================================
-echo           ENI Rule Configuration Switcher
+echo          Antigravity Jailbreak Switcher
 echo ===================================================
 echo.
 echo Select the ruleset to apply:

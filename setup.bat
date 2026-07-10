@@ -1,7 +1,7 @@
 @echo off
 cls
 echo ========================================================
-echo        Anti-Gravity Customizations Auto-Setup
+echo          AntiGravity Jailbreak Auto-Setup
 echo ========================================================
 echo.
 echo This script will install custom model rules, eni skill,
