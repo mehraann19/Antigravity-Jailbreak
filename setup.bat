@@ -12,8 +12,8 @@ echo Current Repo Path: %~dp0
 echo.
 
 set REPO_DIR=%~dp0
-set GLOBAL_CONFIG_DIR=C:\Users\Adnan\.gemini\config
-set DESKTOP_DIR=C:\Users\Adnan\Desktop
+set GLOBAL_CONFIG_DIR=%USERPROFILE%\.gemini\config
+set DESKTOP_DIR=%USERPROFILE%\Desktop
 
 echo 1. Creating global directories...
 if not exist "%GLOBAL_CONFIG_DIR%" mkdir "%GLOBAL_CONFIG_DIR%"

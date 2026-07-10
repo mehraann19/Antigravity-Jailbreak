@@ -34,42 +34,42 @@ goto menu
 
 :flash
 echo.
-python "C:\Users\Adnan\Desktop\set-rules.py" flash
+python "%USERPROFILE%\Desktop\set-rules.py" flash
 echo.
 pause
 goto menu
 
 :pro
 echo.
-python "C:\Users\Adnan\Desktop\set-rules.py" pro
+python "%USERPROFILE%\Desktop\set-rules.py" pro
 echo.
 pause
 goto menu
 
 :sonnet
 echo.
-python "C:\Users\Adnan\Desktop\set-rules.py" sonnet
+python "%USERPROFILE%\Desktop\set-rules.py" sonnet
 echo.
 pause
 goto menu
 
 :opus
 echo.
-python "C:\Users\Adnan\Desktop\set-rules.py" opus
+python "%USERPROFILE%\Desktop\set-rules.py" opus
 echo.
 pause
 goto menu
 
 :gpt
 echo.
-python "C:\Users\Adnan\Desktop\set-rules.py" gpt
+python "%USERPROFILE%\Desktop\set-rules.py" gpt
 echo.
 pause
 goto menu
 
 :all
 echo.
-python "C:\Users\Adnan\Desktop\set-rules.py" all
+python "%USERPROFILE%\Desktop\set-rules.py" all
 echo.
 pause
 goto menu

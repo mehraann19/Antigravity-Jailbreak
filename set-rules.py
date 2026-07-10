@@ -2,16 +2,19 @@ import os
 import sys
 import shutil
 
+# Resolve user home directory dynamically
+HOME = os.path.expanduser("~")
+
 # Paths to update
 TARGET_PATHS = [
     # (Target File Path, IsGlobal)
-    (r"C:\Users\Adnan\.gemini\config\AGENTS.md", True),
-    (r"C:\Users\Adnan\Documents\antigravity\radiant-tesla\.agents\AGENTS.md", False),
-    (r"C:\Users\Adnan\.gemini\antigravity\scratch\.agents\AGENTS.md", False)
+    (os.path.join(HOME, ".gemini", "config", "AGENTS.md"), True),
+    (os.path.join(HOME, "Documents", "antigravity", "radiant-tesla", ".agents", "AGENTS.md"), False),
+    (os.path.join(HOME, ".gemini", "antigravity", "scratch", ".agents", "AGENTS.md"), False)
 ]
 
 # Source rule directory (using the global config as the source of truth)
-SOURCE_DIR = r"C:\Users\Adnan\.gemini\config\.agents"
+SOURCE_DIR = os.path.join(HOME, ".gemini", "config", ".agents")
 
 RULES_MAP = {
     "flash": "Gemini_3.5_Flash.md",
