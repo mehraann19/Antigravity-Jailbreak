@@ -26,7 +26,7 @@ The switcher script automatically copies rules to both your global customization
 This repository is designed to be fully portable and can be installed by anyone on any Windows system using either an automated script or manual copying.
 
 ### Method 1: Auto Setup (Recommended)
-1. Navigate to the repository directory: `C:\Users\Adnan\Videos\New-Projects\Anti-Gravity`
+1. Navigate to the repository directory: `C:\Users\Adnan\Videos\New-Projects\Antigravity-Jailbreak`
 2. Double-click the **`setup.bat`** file.
 3. The setup script will automatically:
    * Detect your active Windows profile home path (`%USERPROFILE%`).
