@@ -63,3 +63,10 @@ Once the setup is completed, you can manage your customizations directly from yo
 * Go to the **Customizations** panel inside settings.
 * You will see the custom rules loaded in the panel corresponding to your current model selection.
 * If you set the `eni` skill, it will show up under active **Skills**.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) - see the file for details.
+
